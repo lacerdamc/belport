@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabela Brasil - Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="menu">
+        <div class="menubotoes"><a href="#parte1" class="btninicio"><h2>INÍCIO</h2></a></div>
+        <div class="linhaseparacao"></div>
+        <div class="menubotoes"><a href="#parte2" class="btnsobremim"><h2>SOBRE MIM</h2></a></div>
+        <div class="linhaseparacao"></div>
+        <div class="menubotoes"><a href="#parte3" class="btnskills"><h2>SKILLS</h2></a></div>
+        <div class="linhaseparacao"></div>
+        <div class="menubotoes"><a href="#parte4" class="btnprojetos"><h2>PROJETOS</h2></a></div>
+        <div class="linhaseparacao"></div>
+        <div class="menubotoes"><a href="#parte5" class="btncontato"><h2>CONTATO</h2></a></div>
+        <div id="modos">
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </nav>
+
+    <main>
+       
+        <section id="parte1" class="parte1 parallax">
+            <div id="nomeinicial">
+                <p class="oi">Oi! Eu sou a</p>
+                <p class="isa">Isabela Brasil.</p>
+            </div>
+            <div>
+                <img src="5cf2035b73b4aca7f758e14ddcd192537b98b65f.png" alt="Isabela Brasil" class="miniEu1">
+            </div>
+        </section>
+
+<section id="parte2" class="parte2">
+    <div class="sobre-container" data-aos="fade-up">
+        <div class="sobre-content">
+            <div class="sobre-texto">
+                <h1 class="titulop1">SOBRE MIM</h1>
+                <h3 class="textop1">
+                    Olá! Sou a Isabela Brasil, tenho atualmente 17 anos. Atuo como estudante 
+                    de tecnologia no colégio COTEMIG e estou sempre em busca de novos
+                    conhecimentos tanto tecnológicos quanto gerais. Busco empreender
+                    na Medicina veterinária usufruindo dos conhecimentos que obtive e ainda 
+                    obtenho no curso.
+                </h3>
+                <button class="submit-btn" onclick="openModal()">Saiba Mais</button>
+            </div>
+            <div class="sobre-imagem">
+                <img src="f0dcb6300318953391a4b0a66e5e0340110e84fd.jpg" alt="Isabela Brasil" class="foto-sobre">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="parte3" class="parte3">
+            <div class="skills-container" data-aos="fade-up">
+                <h1 class="titulop1" style="color: var(--accent-color);">SKILLS</h1>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in">
+                        <i class='bx bxl-html5'></i>
+                        <h3>HTML</h3>
+                        <p>O HTML define a estrutura e o conteúdo dos sites.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class='bx bxl-css3'></i>
+                        <h3>CSS</h3>
+                        <p>O CSS controla a apresentação visual e o layout dos elementos HTML.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class='bx bxl-javascript'></i>
+                        <h3>JavaScript</h3>
+                        <p>O JS é essencial na na programação com o HTML e permite animações no site</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                      <i class='bx bxl-c-plus-plus'></i> 
+                            <h3>C#</h3>
+                       <p>Desenvolvimento de aplicações .NET e Unity</p>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+<section id="parte4" class="parte4">
+    <div class="skills-container" data-aos="fade-up">
+        <h1 class="titulop1">MEUS PROJETOS</h1>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="flip-left">
+                <div class="project-img">
+                    <img src="belara.png" alt="Preview do projeto Belara" class="project-preview">
+                </div>
+                <div class="project-info">
+                    <h3>Belara</h3>
+                    <p>Site desenvolvido com HTML e CSS</p>
+                    <div class="project-buttons">
+                        <a href="https://ibrasil.github.io/belaraaaa/" target="_blank" class="project-btn demo-btn">
+                            <i class='bx bx-link-external'></i> Ver Demo
+                        </a>
+                        <a href="https://github.com/ibrasil/belaraaaa" target="_blank" class="project-btn code-btn">
+                            <i class='bx bxl-github'></i> Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="project-img">
+                    <img src="bitmapbela.png" alt="Preview do projeto Bitmap" class="project-preview">
+                </div>
+                <div class="project-info">
+                    <h3>Bitmap</h3>
+                    <p>Site feito utilizando majoritariamente DISPLAY FLEX</p>
+                    <div class="project-buttons">
+                        <a href="https://ibrasil.github.io/Bitmap/" target="_blank" class="project-btn demo-btn">
+                            <i class='bx bx-link-external'></i> Ver Demo
+                        </a>
+                        <a href="https://github.com/ibrasil/Bitmap" target="_blank" class="project-btn code-btn">
+                            <i class='bx bxl-github'></i> Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      
+        <section id="parte5" class="parte5">
+            <div class="contact-container" data-aos="fade-up">
+                <h1 class="titulop1" style="color: var(--accent-color);">ENTRE EM CONTATO</h1>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu nome completo" required class="txtnome">
+                        <input type="tel" id="telefone" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+                    </div>
+                    <textarea id="mensagem" placeholder="Sua mensagem..." required></textarea>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+<footer class="rodape">
+    <div class="footer-content">
+        <div class="footer-info">
+            <h2>ISABELA ALEIXO BRASIL 2024</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class='bx bx-phone'></i>
+                    <a href="tel:+55 31 99848-9279" class="contact-link">+55 31 99848-9279</a>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <a href="mailto:isabelabrasil3108@aluno.cotemig.com" class="contact-link">isabelabrasil3108@aluno.cotemig.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <a href="https://github.com/ibrasil" target="_blank" class="github-link">
+                <i class='bx bxl-github'></i> Visite meu GitHub
+            </a>
+        </div>
+    </div>
+</footer>
+
+    
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2 style="color: var(--accent-color); margin-bottom: 1rem;">Mais Sobre Mim</h2>
+            <p style="color: var(--text-color); line-height: 1.6;">
+                Além do desenvolvimento web, tenho grande interesse em tecnologia aplicada à medicina veterinária. 
+                Estou constantemente aprendendo novas tecnologias e buscando formas de unir minha paixão por animais 
+                com o conhecimento técnico que adquiro no COTEMIG.
+            </p>
+            <p style="color: var(--text-color); line-height: 1.6; margin-top: 1rem;">
+                Meu objetivo é criar soluções tecnológicas que possam melhorar a vida dos animais e facilitar 
+                o trabalho dos profissionais da área veterinária.
+            </p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
